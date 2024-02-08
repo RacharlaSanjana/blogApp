@@ -1,0 +1,80 @@
+.post {
+  width: 350px;
+  height:400px;
+  margin: 0 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.postInfo {
+  padding: 10px; 
+}
+
+.postCats {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.postTitle {
+  font-family: "OpenSans,Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: center; 
+  cursor: pointer;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.postCat {
+  font-family: "Lora,aparajitha";
+  font-weight: 400;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.postAuthor,
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(35, 35, 35);
+  padding: 5px;
+}
+
+.postDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
