@@ -15,5 +15,4 @@ Welcome to our MERN (MongoDB, Express.js, React.js, Node.js) stack blog applicat
 - Express.js: Backend framework used for routing and handling HTTP requests.
 - React.js: Frontend library used for building the user interface.
 - Node.js: JavaScript runtime environment used for server-side logic.
-- JWT (JSON Web Tokens): Used for user authentication and authorization.
 - bcrypt.js: Library used for hashing passwords securely.
